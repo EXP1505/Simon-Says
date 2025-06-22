@@ -1,0 +1,62 @@
+body{
+    text-align: center;
+}
+
+h1{
+    color: blue;
+    font-family: cursive;
+}
+
+h2{
+    font-family: cursive;
+    color:aqua;
+}
+
+h3{
+    font-family: cursive;
+    color: aqua;
+}
+
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2rem;
+    transition: 0.05s;
+}
+.btn:hover{
+    transform: scale(1.1);
+    transition-delay: 0.05s;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.blue{
+    background-color: rgb(33, 108, 247);
+}
+.skyblue{
+    background-color: #63aac0;
+}
+.pink{
+    background-color: #d95980;
+}
+.orange{
+    background-color:  #f99b45;
+}
+
+.gameflash{
+    background-color: white;
+}
+
+.userflash{
+    background-color: green;
+}
+
+body {
+    background-image: url("BG.png");
+    background-position: center; 
+  }
